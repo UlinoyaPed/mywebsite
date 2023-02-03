@@ -37,8 +37,6 @@ function Push_to_git_Auto {
     git push
 }
 function Push_to_git_Manual {
-    git add .
-
     # 定义commit type
     $headertype = "feat", "fix", "docs", "style", "refactor", "test", "chore"
     $headertype_cn = "新功能/新文章", "修改Bug/修改文章", "添加文档", "优化格式", "重写代码/重写文章", "测试功能", "修改构建过程/添加辅助工具"
@@ -61,7 +59,8 @@ function Push_to_git_Manual {
     $CommitSubject = Read-Host "输入提交信息（非必须）"
 
     $CommitMessage = "$($CommitType)($($CommitScope)): $($CommitSubject)"
-
+    
+    git add .
     git commit -m "$($CommitMessage)"
     git push
 }
