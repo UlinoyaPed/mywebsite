@@ -4,7 +4,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/UlinoyaPed/mywebsite)
 ![GitHub Repo stars](https://img.shields.io/github/stars/UlinoyaPed/mywebsite)
 
-## **网站快照（实时更新）**$\downarrow$
+## **点个`star`吧**
+
+## 网站快照（每两天更新一次）
 
 ![网页快照](https://s0.wp.com/mshots/v1/https://totapo.netlify.app?w=&h=)
 
