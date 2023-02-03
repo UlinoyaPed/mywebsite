@@ -56,7 +56,7 @@ function Push_to_git_Manual {
 
     $CommitSubject = Read-Host "输入提交信息（非必须）"
 
-    $CommitMessage = "$($CommitType)\($($CommitScope)\)\: $($CommitSubject)"
+    $CommitMessage = "$($CommitType)($($CommitScope)): $($CommitSubject)"
 
     git commit -m "$($CommitMessage)"
     git push
