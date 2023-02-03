@@ -1,6 +1,6 @@
 ﻿function main {
     # 定义功能
-    $funcs = "Add_a_new_mdFile", "Test_local", "Build_and_deploy", "Push_to_git_and_deploy"
+    $funcs = "Add_a_new_mdFile", "Test_local", "Build_and_deploy", "Push_to_git_and_deploy", "Git_submodule_upgrade"
 
     for ($x = 0; $x -lt $funcs.Length; $x = $x + 1) {
         Write-Output "$($x) $($funcs[$x])"
@@ -29,6 +29,9 @@ function Push_to_git_and_deploy {
     git add .
     git commit -m "网站更新 From 自动脚本"
     git push
+}
+function Git_submodule_upgrade {
+    git submodule update --remote --merge --progress
 }
 
 main
