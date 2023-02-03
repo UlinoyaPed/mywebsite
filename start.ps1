@@ -65,7 +65,7 @@ function Push_to_git_Manual {
     git push
 }
 function Git_submodule_upgrade {
-    git submodule update --remote --merge --progress
+    git submodule update --remote --merge --init
 }
 
 # 执行主函数
