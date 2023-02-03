@@ -1,4 +1,5 @@
-﻿function main {
+﻿# 定义主函数
+function main {
     # 定义功能
     $funcs = "Add_a_new_mdFile", "Test_local", "Build", "Push_to_git_Auto", "Push_to_git_Manual", "Git_submodule_upgrade"
 
@@ -13,18 +14,21 @@
     Write-Output "Finish!"
 }
 
+# 定义其他函数
 function Add_a_new_mdFile {
+    # 获取所有文件夹名并输出
     $files = Get-ChildItem -Path .\content\posts -Directory -Name -Recurse
     Write-Output $files
-    $name = Read-Host "输入创建文件名"
-    $result = "posts/$($name)"
-    hugo new $result
+
+    $name = Read-Host "输入创建文件名（相对于 posts 文件夹）"
+    hugo new "posts/$($name)"
 }
 function Test_local {
     hugo serve --disableFastRender -D
 }
 function Build {
     Remove-Item .\public -Recurse
+
     hugo --gc --minify -e production
 }
 function Push_to_git_Auto {
@@ -65,4 +69,5 @@ function Git_submodule_upgrade {
     git submodule update --remote --merge --progress
 }
 
+# 执行主函数
 main
