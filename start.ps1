@@ -9,6 +9,7 @@
     # 执行代号对应的功能
     Invoke-Expression $($funcs[$inpt])
     Set-Location $PSScriptRoot
+    
     Write-Output "Finish!"
 }
 
