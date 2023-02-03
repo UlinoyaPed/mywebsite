@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>md</title>
+  	<!-- Editor's Dependecy Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.css"
+    />
+    <!-- Editor's Style -->
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/2.5.2/toastui-editor.min.css" />
+</head>
+<body>
+
+<div id="editor"></div>
+
+<script>
+console.log("111111111111")
+// window.onload 事件是在dom挂载结束后触发
+window.onload = function(){
+  console.log("DOM加载完毕--划重点")
+  const Editor = toastui.Editor;
+  const editor = new Editor({
+    el: document.querySelector('#editor'),
+    height: '600px',
+    initialEditType: 'markdown',
+    previewStyle: 'vertical'
+  });
+
+  editor.getHtml();
+}
+</script>
+
+<script src="https://uicdn.toast.com/editor/2.5.2/toastui-editor-all.min.js"></script>
+</body>
+</html>
+

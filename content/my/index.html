@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Captain的网站</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #fff;
+      }
+      /* * {
+        border: 2px solid black;
+      } */
+      .flex {
+        display: flex;
+      }
+      .mainColor {
+        background-color: #eee;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgR8 {
+        margin-right: 8px;
+      }
+      .mgT8 {
+        margin-top: 8px;
+      }
+
+      .yinYing {
+        box-shadow: rgb(0 0 0 /20%) 0px 2px 1px -1px,
+          rgb(0 0 0 /14%) 0px 1px 1px 0px, rgb(0 0 0 /12%) 0px 1px 3px 0px;
+      }
+      .touXiang {
+        padding: 10px;
+        align-items: center; /*垂直居中*/
+        border: 3px solid #eee;
+        border-radius: 5px;
+        background-color: rgb(180, 203, 228);
+      }
+      .daoHangfont {
+        margin-left: 10px;
+        font-size: x-large;
+        text-decoration: none;
+        color: black;
+      }
+      .juzhong {
+        justify-content: center; /*水平居中*/
+      }
+
+      .gongGao {
+        flex: 1;
+      }
+
+      @media (max-width: 600px) {
+        .daoHang {
+          display: none;
+        }
+        .neiRong {
+          flex-direction: column;
+        }
+        .gongGao {
+          margin-left: 8px;
+          border-top: 3px solid black;
+        }
+      }
+    </style>
+  </head>
+  <body class="flex column">
+    <!--顶部栏-->
+    <div
+      class="flex yinYing"
+      style="min-height: 60px; background-color: black; z-index: 10"
+    ></div>
+
+    <!--主区域-->
+    <div class="flex flex1" style="overflow: hidden">
+      <!--左侧导航栏-->
+      <div
+        class="flex mgT8 yinYing column daoHang"
+        style="
+          width: 200px;
+          background-color: rgb(208, 225, 245);
+          z-index: 5;
+          overflow: auto;
+        "
+      >
+        <!--头像栏-->
+        <div class="flex yinYing mg8 touXiang" style="height: 60px">
+          <img
+            src="/Captain.png"
+            height="60px"
+            width="60px"
+            alt="头像"
+            style="border-radius: 5px"
+          />
+          <div class="daoHangfont">Captain</div>
+        </div>
+        <!--其他导航标签-->
+        <div class="flex column">
+          <div class="flex yinYing mg8 touXiang juzhong" style="height: 40px">
+            <a
+              href="./index.html"
+              class="daoHangfont"
+              style="letter-spacing: 20px"
+              >首页</a
+            >
+          </div>
+          <div class="flex yinYing mg8 touXiang juzhong" style="height: 40px">
+            <a href="./md/index.html" class="daoHangfont"><p>Markdown</p></a>
+          </div>
+        </div>
+      </div>
+      <!--右侧内容区-->
+      <div class="flex flex1 neiRong" style="overflow: auto">
+        <!--中部 主内容-->
+        <div class="flex column mg8" style="flex: 3">
+          <!--简介区-->
+          <div
+            class="flex mainColor yinYing"
+            style="
+              min-height: 250px;
+              border: 3px solid rgb(153, 177, 205);
+              border-radius: 5px;
+            "
+          >
+            <script>
+              document.write("abc");
+            </script>
+          </div>
+          <!--列表区-->
+          <div class="flex column">
+            <!--列表项-->
+            <div class="mgT8 mainColor yinYing" style="height: 200px"></div>
+            <div class="mgT8 mainColor yinYing" style="height: 200px"></div>
+            <div class="mgT8 mainColor yinYing" style="height: 200px"></div>
+            <div class="mgT8 mainColor yinYing" style="height: 200px"></div>
+            <div class="mgT8 mainColor yinYing" style="height: 200px"></div>
+            <div class="mgT8 mainColor yinYing" style="height: 200px"></div>
+          </div>
+        </div>
+        <!--右区 公告栏-->
+        <div class="flex column mgR8 mgT8 gongGao" style="min-width: 200px">
+          <!--提示区-->
+          <div class="flex column mainColor yinYing" style="min-height: 200px">
+            <p>公告栏</p>
+          </div>
+          <!--消息区-->
+          <div
+            class="flex mgT8 mainColor yinYing"
+            style="min-height: 300px"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
