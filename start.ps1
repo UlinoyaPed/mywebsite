@@ -1,7 +1,7 @@
 ﻿# 定义主函数
 function main {
     # 定义功能
-    $funcs = "Add_a_new_mdFile", "Test_local", "Build", "Push_to_git_Auto", "Push_to_git_Manual", "Git_submodule_upgrade"
+    $funcs = "Add_a_new_mdFile", "Test_local", "Build", "Git_commit_push_Auto", "Git_commit_push_Manual", "Git_submodule_upgrade"
 
     for ($x = 0; $x -lt $funcs.Length; $x = $x + 1) {
         Write-Output "$($x) $($funcs[$x])"
@@ -31,12 +31,12 @@ function Build {
 
     hugo --gc --minify -e production
 }
-function Push_to_git_Auto {
+function Git_commit_push_Auto {
     git add .
     git commit -m "网站更新 From 自动脚本"
     git push
 }
-function Push_to_git_Manual {
+function Git_commit_push_Manual {
     # 定义commit type
     $headertype = "feat", "fix", "docs", "style", "refactor", "test", "chore"
     $headertype_cn = "新功能/新文章", "修改Bug/修改文章", "添加文档", "优化格式", "重写代码/重写文章", "测试功能", "修改构建过程/添加辅助工具"

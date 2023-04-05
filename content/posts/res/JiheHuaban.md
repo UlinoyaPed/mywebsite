@@ -24,7 +24,7 @@ twemoji: false # 如果设为 true, 这篇文章会使用 twemoji
 
 截图：
 
-![2023-01-31_173530_M](https://github.com/UlinoyaPed/PictureBed/raw/main/Class/2023-01-31_173530_M.png)
+![2023-01-31_173530_M](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Class/2023-01-31_173530_M.png)
 
 ## 下载地址
 

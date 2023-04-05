@@ -35,13 +35,13 @@ twemoji: false # 如果设为 true, 这篇文章会使用 twemoji
 其中电子邮件最好填真实的，方便后续接受消息
 {{< /admonition>}}
 
-![2023-02-01_103117_4](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_103117_4.png)
+![2023-02-01_103117_4](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_103117_4.png)
 
 ### 新建域名
 
 点击`New Domain`创建新域名
 
-![2023-02-01_103544_q](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_103544_q.png)
+![2023-02-01_103544_q](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_103544_q.png)
 
 在`domain name`框中填写**完整**域名
 
@@ -58,7 +58,7 @@ apple.eu.org
 
 如果你还为配置`DNS`解析，可以随便填一个
 
-![2023-02-01_104455_p](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_104455_p.png)
+![2023-02-01_104455_p](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_104455_p.png)
 
 {{< admonition tip "提示" true >}}
 `Check for correctness of`最好先选第一个，保证注册请求成功发送，等域名通过后再更改为真实`DNS`服务器
@@ -89,7 +89,7 @@ D --> |CName 记录| F[其他域名]
 
 点击`Domains`-->`Add or Register a Domain`-->输入你的域名-->添加`DNS`记录
 
-![2023-02-01_111811_i](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_111811_i.png)
+![2023-02-01_111811_i](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_111811_i.png)
 
 你可以添加`A`记录或`Cname`记录
 
@@ -97,7 +97,7 @@ D --> |CName 记录| F[其他域名]
 
 ### 配置 NS 服务器
 
-![2023-02-01_112247_u](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_112247_u.png)
+![2023-02-01_112247_u](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_112247_u.png)
 
 记录`Nameservers`
 
@@ -114,7 +114,7 @@ dns4.p01.nsone.net
 
 添加到`Name servers`下
 
-![2023-02-01_112416_V](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_112416_V.png)
+![2023-02-01_112416_V](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-01_112416_V.png)
 
 验证方式选第三个并确定
 

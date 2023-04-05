@@ -16,7 +16,7 @@ func main() {
 }
 
 func replaceSuffix(suffix string, oldStr string, newStr string) error {
-	root := "path/to/root/directory"
+	root := "."
 
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {

@@ -24,13 +24,13 @@ twemoji: false # 如果设为 true, 这篇文章会使用 twemoji
 
 主界面
 
-![2023-01-31_174647_p](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-01-31_174647_p.png)
+![2023-01-31_174647_p](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-01-31_174647_p.png)
 
 ---
 
 设置及`OCR`
 
-![2023-01-31_174830_f](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-01-31_174830_f.png)
+![2023-01-31_174830_f](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-01-31_174830_f.png)
 
 ## 下载地址
 

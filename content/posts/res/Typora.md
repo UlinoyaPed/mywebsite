@@ -22,6 +22,6 @@ twemoji: false # 如果设为 true, 这篇文章会使用 twemoji
 
 ![GitHub release (by tag)](https://img.shields.io/github/downloads/UlinoyaPed/Res/Typora/total)
 
-![2023-02-03_173212_G](https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-03_173212_G.png)
+![2023-02-03_173212_G](https://ghproxy.com/https://github.com/UlinoyaPed/PictureBed/raw/main/Blog/2023-02-03_173212_G.png)
 
 {{< link content="下载Typora" href="https://github.com/UlinoyaPed/Res/releases/download/Typora/typora_1.0.2_Crack.7z" card=true download="typora_1.0.2_Crack.7z" >}}
