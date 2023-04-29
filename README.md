@@ -80,7 +80,7 @@ git clone https://github.com/UlinoyaPed/mywebsite.git --recurse-submodules
 Add_a_new_mdFile 创建新文章
 Test_local 本地启动服务端
 Build 构建，输出在./public
-Git_commit_push_Auto 半自动提交
-Git_commit_push_Manual
+Git_commit_push_Auto 自动提交(每次提交信息都一样，最好别用)
+Git_commit_push_Manual  
 Git_submodule_upgrade 更新模块
 ```
