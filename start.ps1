@@ -10,8 +10,6 @@ function main {
     # 执行代号对应的功能
     Invoke-Expression $($funcs[$inpt])
     Set-Location $PSScriptRoot
-
-    Write-Output "Finish!"
 }
 
 # 定义其他函数
@@ -70,3 +68,6 @@ function Git_submodule_upgrade {
 
 # 执行主函数
 main
+
+Write-Host "Finish"
+Start-Sleep -Seconds 10

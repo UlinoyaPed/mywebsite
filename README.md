@@ -56,6 +56,18 @@ git clone https://github.com/UlinoyaPed/mywebsite.git --recurse-submodules
 
 `content/posts`文件夹存放所有文章，请将它们全部删除并撰写您自己的文章
 
+### 分类及目录
+
+- categories
+	- doc
+	- code
+	- res
+	- study
+	  - essay
+- tags
+	- win
+	- android
+
 ### 快速脚本
 
 我编写了一个快速脚本（仅适用 Windows[^1]）`start.ps1`
@@ -65,10 +77,10 @@ git clone https://github.com/UlinoyaPed/mywebsite.git --recurse-submodules
 目前有以下功能，大家可以自行探索
 
 ```
-0 Add_a_new_mdFile
-1 Test_local
-2 Build
-3 Push_to_git_Auto
-4 Push_to_git_Manual
-5 Git_submodule_upgrade
+Add_a_new_mdFile 创建新文章
+Test_local 本地启动服务端
+Build 构建，输出在./public
+Git_commit_push_Auto 半自动提交
+Git_commit_push_Manual
+Git_submodule_upgrade 更新模块
 ```
