@@ -69,5 +69,5 @@ function Git_submodule_upgrade {
 # 执行主函数
 main
 
-Write-Host "Finish"
+Write-Host "`n`nFinish"
 Start-Sleep -Seconds 10
