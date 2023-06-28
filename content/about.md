@@ -17,8 +17,6 @@ comment: false
 
 似乎是两天更新一次截图
 
-图片和资源文件的代理还没有上线，所以图片可能会打不开
-
 ## Github repo
 
 [Github repo](https://github.com/UlinoyaPed/mywebsite)

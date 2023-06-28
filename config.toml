@@ -175,7 +175,7 @@ theme = "FixIt"
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标，可替代旧的 .png 和 .ico 文件
-    svgFavicon = "/svg/Captain.svg"
+    svgFavicon = ""
     # Safari 图标颜色
     iconColor = "#5bbad5"
     # Windows v8-10 磁贴颜色
@@ -410,7 +410,7 @@ theme = "FixIt"
     Ko-Fi = ""
     BuyMeaCoffee = ""
     Linktree = ""
-    QQ = ""
+    QQ = "2156137974"
     QQGroup = "" # https://qun.qq.com/join.html
     Diaspora = ""
     CSDN = ""
@@ -426,7 +426,7 @@ theme = "FixIt"
     Feishu = ""
     TryHackMe = ""
     Phone = ""
-    Email = "l15010104769@outlook.com"
+    Email = "ulinoyaped@qq.com"
     RSS = true
 
   #  文章页面配置
@@ -651,8 +651,8 @@ theme = "FixIt"
         languageCode = "zh_CN"
       #  Telegram Comments 评论系统设置 (https://comments.app)
       [params.page.comment.telegram]
-        enable = false
-        siteID = ""
+        enable = true
+        siteID = "F6MuseVH"
         limit = 5
         height = ""
         color = ""
@@ -734,7 +734,7 @@ theme = "FixIt"
     # 取值详见 https://mermaid-js.github.io/mermaid/#/Setup?id=theme
     themes = ["neutral", "dark"]
   
-  #  盘古之白配置
+  #  盘古之白（中英文之间添加空格）配置
   [params.pangu]
     # 适用于中文写作用户
     enable = true
@@ -784,7 +784,7 @@ theme = "FixIt"
   #  网站 SEO 配置
   [params.seo]
     # 图片 URL
-    image = "/captain.png"
+    image = "/Captain.png"
     # 缩略图 URL
     thumbnailUrl = "/favicon-32x32.png"
 
@@ -835,7 +835,7 @@ theme = "FixIt"
   #  Gravatar 设置
   [params.gravatar]
     # Gravatar 主机，默认：“www.gravatar.com”
-    host = "www.gravatar.com" # ["cn.gravatar.com", "gravatar.loli.net", ...]
+    host = "cn.gravatar.com" # ["cn.gravatar.com", "gravatar.loli.net", ...]
     style = "mp" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
 
   #  返回顶部
@@ -921,12 +921,12 @@ theme = "FixIt"
 # 作者配置
 [author]
   name = "UlinoyaPed"
-  email = "l15010104769@outlook.com"
-  link = "https://totapo.netlify.app"
+  email = "2156137974@qq.com"
+  link = "https://ulinoyaped.eu.org"
 
 # 网站地图配置
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
 
