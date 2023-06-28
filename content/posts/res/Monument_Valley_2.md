@@ -9,7 +9,7 @@ categories:
   - res
 tags:
   - android
-draft: true # 是否为草稿
+draft: false # 是否为草稿
 ruby: true # 上标注释扩展语法
 fraction: true # 分数扩展语法
 fontawesome: true # Font Awesome 扩展语法
