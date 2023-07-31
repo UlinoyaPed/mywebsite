@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: 创建报告以帮助我们改进 Create a report to help us improve
 title: "[Bug]: "
 labels: bug
 assignees: UlinoyaPed
@@ -10,9 +10,9 @@ assignees: UlinoyaPed
 **在提交之前，请确认：**
 **Please verify that you've followed these steps:**
 
-- [ ] 我已经在 [Issue Tracker](../../issues) 中找过我要提出的问题。 I have searched on the [issue tracker](../../issues) for a related issue.
+- [x] 我已经在 [Issue Tracker](../issues) 中找过我要提出的问题。 I have searched on the [issue tracker](../issues) for a related issue.
 
-- [ ] 我已经使用测试版本测试过，问题依旧存在。 I have tested using the test mod, and the issue still exists.
+- [x] 我已经使用测试版本测试过，问题依旧存在。 I have tested using the test mod, and the issue still exists.
 
 ## 描述Bug *Describe the bug*
 
