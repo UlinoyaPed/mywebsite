@@ -35,6 +35,6 @@ twemoji: false # 如果设为 true, 这篇文章会使用 twemoji
    或压缩包`Monument.Valley.2.v1.3.9.LZMA2Fast.7z ` 250MB
 
 2. <p style="color:red">安装 apk 并打开，此时因缺少资源文件而屏幕黑屏，请等待几秒后退出软件</p>
-3. 打开 `文件管理`-`内部存储`-`Android`-`obb`-`monumentvalley2`文件夹
+3. 打开 `文件管理`-`内部存储`-`Android`-`obb`-`com.ustwo.monumentvalley2`文件夹
 4. <p style="color:red">将 obb 文件放入（不要改名）</p>
 5. 再次打开游戏即可正常运行
