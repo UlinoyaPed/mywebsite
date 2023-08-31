@@ -4,7 +4,7 @@ subtitle: ""
 date: 2023-08-14T14:35:46+08:00
 lastmod: 2023-08-14T14:35:46+08:00
 author: "UlinoyaPed"
-description: ""
+description: "一键启动Clash！"
 categories: 
   - res
 tags: 
@@ -27,4 +27,10 @@ twemoji: false # 如果设为 true, 这篇文章会使用 twemoji
 - 请新建文件夹再启动程序
 - [前往Github查看源代码](https://github.com/UlinoyaPed/QuickClash)
 
-下载 [QuickClash.exe](https://ghproxy.com/https://github.com/UlinoyaPed/QuickClash/releases/download/v1.0/QuickClash.exe) 
+## 下载
+
+下载 [QuickClash-v1.0](https://ghproxy.com/https://github.com/UlinoyaPed/QuickClash/releases/download/v1.0/QuickClash.exe) 
+
+[最新的版本 (Recommend)](https://github.com/UlinoyaPed/QuickClash/releases)
+
+[On Gitee（国内可用）](https://gitee.com/UlinoyaPed/QuickClash/releases)

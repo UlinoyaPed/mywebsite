@@ -70,9 +70,9 @@ git clone https://github.com/UlinoyaPed/mywebsite.git --recurse-submodules
 
 ### 快速脚本
 
-我编写了一个快速脚本（仅适用 Windows[^1]）`start.ps1`
+我编写了一个快速脚本（仅适用 Windows[^1]）[`start.ps1`](./start.ps1)
 
-[^1]: 未来不会有 Linux 版（主要是没 Linux 设备），希望各位积极提交 `PR`
+[^1]: 未来不会有 Linux 版（主要是没 Linux 设备），希望各位积极交PR
 
 目前有以下功能，大家可以自行探索
 
