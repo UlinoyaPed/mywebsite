@@ -18,7 +18,6 @@ resources/
 
 # Local Netlify folder
 .netlify/
-/themes
 
 # yml & toml config files
 !*.yml
