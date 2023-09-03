@@ -70,4 +70,4 @@ function Git_submodule_upgrade {
 main
 
 Write-Host "`n`nFinish"
-Start-Sleep -Seconds 10
+Start-Sleep -Seconds 3
